@@ -48,19 +48,22 @@
 <a name="about-the-project"></a>
 ## Sobre o Projeto
 
-Um guia de consulta e informações sobre Pokémons.
+Aplicação de cotação de criptomoedas com sistema de Login e Registre-se e página de informações sobre criptomoeda específica.
 
-<img width="1493" alt="nextjs-pokedex" src="https://user-images.githubusercontent.com/105018299/192658149-391c2f4c-557a-4046-a806-b9020f0c80af.jpg"><img width="1493" alt="amazon-clone" src="https://user-images.githubusercontent.com/105018299/192658624-a9b335ca-38b5-44b5-ac00-c823fae0cf09.jpg">
+<img width="1493" alt="criptomoedas" src="https://user-images.githubusercontent.com/105018299/192913563-71f14b41-3891-413a-abd2-5a4c4421aea9.jpg"><img width="1493" alt="amazon-clone" src="https://user-images.githubusercontent.com/105018299/192913565-1886f874-3f36-45fa-adc0-16354a23823e.jpg">
+
+<img width="250" alt="criptomoedas" src="https://user-images.githubusercontent.com/105018299/192914234-2f2cf4e9-76e4-487e-ad9d-bf0aba08c7ec.jpg"><img width="250" alt="amazon-clone" src="https://user-images.githubusercontent.com/105018299/192914236-1da33ea3-272f-400e-9f41-51e830ae7710.jpg"><img width="250" alt="criptomoedas" src="https://user-images.githubusercontent.com/105018299/192914239-c185c43c-0e5e-488b-9ba6-2925dc8f4cfd.jpg"><img width="250" alt="amazon-clone" src="https://user-images.githubusercontent.com/105018299/192914241-f6ffe270-da16-492e-985b-9a985c3185fa.jpg">
 
 **Funcionalidades principais:**
 * Consulta de API ( [CoinGecko](https://www.coingecko.com/pt/api) ).
-* Buscar Pokémons por nome/tipo.
-* Páginação para rolar entre as Listas.
-* Desktop/Mobile responsivo.
-* Página de Status.
-* Quantidade de Pokémons atualizada.
+* Login e Registre-se Page & Página de Informações da Criptomoeda.
+* Axios - Promises para fazer requisições.
+* Autenticação usando firebase e firestore para que possamos salvar dados específicos do usuário!.
+* Utilização do DOMPurify.
+* Gráfico com react-sparklines.
+* Além de react-icons & react-router-dom.
 
-Embora a quantidade de pokémons extraídos da API torne a nevegação um pouco lenta (será resolvido trocando a API) todas funcionalidades estão funcionando perfeitamente, É um projeto excelente, utilizável em todos os dispositivos e foi construído com NEXTJS & TAILWIND CSS. Espero que goste. Clique [aqui](https://nextpokedex-app.netlify.app/) para ver o projeto ao vivo na web.
+Este projeto foi feito para demonstrar conhecimento trabalhando em React JS e acessar endpoints de uma API. Este aplicativo foi hospedado no Firebase, suporta autenticação de usuário. Os usuários podem criar uma nova conta usando seus endereços de e-mail e pode entrar para salvar moedas para um usuário específico. Isso é possível criando um armazenamento em nuvem, com banco de dados no momento do registro do usuário. Outra característica deste projeto é o React Hooks, Context, React-Router-Dom, useParams, Light/Dark Theme, Tailwind, Authentication, Firebase, API. Este aplicativo foi construído usando a API Coin Gecko, usando manipulações de dados da API, onde o usuário tem visualização das cotações de criptomoedas em tempo real. Clique [aqui](https://criptobaseapp.netlify.app/) para ver o projeto ao vivo na web.
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
@@ -73,6 +76,7 @@ Embora a quantidade de pokémons extraídos da API torne a nevegação um pouco 
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
@@ -84,7 +88,7 @@ Embora a quantidade de pokémons extraídos da API torne a nevegação um pouco 
 
 <a name="clone-locally"></a>
 ### Clonar-localmente
-- Digite essa url: [https://github.com/pauloaraujo028/nextjs-pokedex.git](https://github.com/pauloaraujo028/nextjs-pokedex.git) no seu navegador.
+- Digite essa url: [https://github.com/pauloaraujo028/cripto-base-app](https://github.com/pauloaraujo028/cripto-base-app) no seu navegador.
 - Uma vez aberto, navegue até o nível superior esquerdo do projeto, um botão verde de download do código estará visível no lado direito.
 - Selecione a opção de download Zip no menu suspenso.
 - Quando o download estiver concluído, você poderá acessar meu projeto localmente. 
